@@ -285,6 +285,15 @@ babel-helper-builder-binary-assignment-operator-visitor@^6.8.0:
     babel-runtime "^6.0.0"
     babel-types "^6.18.0"
 
+babel-helper-builder-react-jsx@^6.8.0:
+  version "6.21.1"
+  resolved "https://registry.yarnpkg.com/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-6.21.1.tgz#c4a24208655be9dc1cccf14d366da176f20645e4"
+  dependencies:
+    babel-runtime "^6.9.0"
+    babel-types "^6.21.0"
+    esutils "^2.0.0"
+    lodash "^4.2.0"
+
 babel-helper-call-delegate@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-helper-call-delegate/-/babel-helper-call-delegate-6.18.0.tgz#05b14aafa430884b034097ef29e9f067ea4133bd"
@@ -432,12 +441,6 @@ babel-plugin-check-es2015-constants@^6.3.13:
   dependencies:
     babel-runtime "^6.0.0"
 
-babel-plugin-inferno@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-inferno/-/babel-plugin-inferno-1.4.0.tgz#944c95b16520fb44914c846601484716852a8421"
-  dependencies:
-    babel-plugin-syntax-jsx "^6.18.0"
-
 babel-plugin-minify-constant-folding@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-minify-constant-folding/-/babel-plugin-minify-constant-folding-0.0.3.tgz#a511e839562489811987a7a503c43c312c40138a"
@@ -517,7 +520,7 @@ babel-plugin-syntax-exponentiation-operator@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-exponentiation-operator/-/babel-plugin-syntax-exponentiation-operator-6.13.0.tgz#9ee7e8337290da95288201a6a57f4170317830de"
 
-babel-plugin-syntax-jsx@^6.18.0:
+babel-plugin-syntax-jsx@^6.8.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
 
@@ -771,6 +774,14 @@ babel-plugin-transform-property-literals@^6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-property-literals/-/babel-plugin-transform-property-literals-6.8.0.tgz#a65b2e6e1274d25df0f3a4c5e85bc8f1cdd9e019"
   dependencies:
+    babel-runtime "^6.0.0"
+
+babel-plugin-transform-react-jsx@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-6.8.0.tgz#94759942f70af18c617189aa7f3593f1644a71ab"
+  dependencies:
+    babel-helper-builder-react-jsx "^6.8.0"
+    babel-plugin-syntax-jsx "^6.8.0"
     babel-runtime "^6.0.0"
 
 babel-plugin-transform-regenerator@^6.16.0:
@@ -1863,7 +1874,7 @@ esprima@^2.6.0:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
-esutils@^2.0.2:
+esutils@^2.0.0, esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
 
@@ -2447,30 +2458,6 @@ indexes-of@^1.0.1:
 indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
-
-inferno-component@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/inferno-component/-/inferno-component-1.0.5.tgz#a9605c41d11bcf306e41972fbcc3b56d42d89624"
-  dependencies:
-    inferno "1.0.5"
-
-inferno-create-element@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-1.0.5.tgz#fd80e65b76db01b2d888af69bcf6812895a62c4e"
-  dependencies:
-    inferno "1.0.5"
-
-inferno-router@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/inferno-router/-/inferno-router-1.0.5.tgz#149fe7b81482da5bc08d815ad1087c2ce6757534"
-  dependencies:
-    inferno "1.0.5"
-    inferno-component "1.0.5"
-    inferno-create-element "1.0.5"
-
-inferno@1.0.5, inferno@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-1.0.5.tgz#0bc571baefa05f0960c2e99bb4cb741e1c1418f7"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -3715,6 +3702,14 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     js-base64 "^2.1.9"
     source-map "^0.5.6"
     supports-color "^3.1.2"
+
+preact-router@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/preact-router/-/preact-router-2.3.2.tgz#4a6db9ceb0bd29e3eb5ad27b4646e7c7e1d3e68f"
+
+preact@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-7.1.0.tgz#119cf65963abff28038b2330601adde969990a8d"
 
 prepend-http@^1.0.0:
   version "1.0.4"

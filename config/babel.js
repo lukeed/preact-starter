@@ -3,5 +3,7 @@ module.exports = {
 		['es2015', {loose: true}],
 		'stage-2'
 	],
-	plugins: ['inferno']
+	plugins: [
+		['transform-react-jsx', {pragma: 'h'}]
+	]
 };

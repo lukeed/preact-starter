@@ -16,15 +16,15 @@
   },
   "dependencies": {
     "history": "^4.5.0",
-    "inferno": "^1.0.5",
-    "inferno-router": "^1.0.5",
-    "md-colors": "^1.0.0"
+    "md-colors": "^1.0.0",
+    "preact": "^7.1.0",
+    "preact-router": "^2.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.6.1",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
-    "babel-plugin-inferno": "^1.4.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
     "babel-preset-babili": "^0.0.9",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-2": "^6.18.0",
