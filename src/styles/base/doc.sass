@@ -1,0 +1,31 @@
+/**
+ * Global document styles
+ */
+
+%fullscreen
+	width: 100vw
+	min-height: 100vh
+	overflow-x: hidden
+
+body
+	color: $black
+	background: $offwhite
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif
+	@extend %fullscreen
+	font-weight: 400
+	+font-smoothing()
+
+a
+	color: $primary
+
+li, p
+	margin-bottom: $base-spacing/2
+
+img
+	user-select: none
+	max-width: 100%
+
+blockquote
+	border-left: 4px solid md-color('grey', '200')
+	padding: $base-spacing/2 $base-spacing
+	padding-right: 0
