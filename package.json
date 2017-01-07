@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "inferno-starter",
-  "version": "0.1.1",
+  "name": "preact-starter",
+  "version": "0.0.0",
   "license": "MIT",
-  "repository": "lukeed/inferno-starter",
+  "repository": "lukeed/preact-starter",
   "author": {
     "name": "Luke Edwards",
     "email": "luke.edwards05@gmail.com",
