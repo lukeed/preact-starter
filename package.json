@@ -15,7 +15,6 @@
     "watch": "webpack-dashboard -- webpack-dev-server --config config/webpack"
   },
   "dependencies": {
-    "history": "^4.5.0",
     "md-colors": "^1.0.0",
     "preact": "^7.1.0",
     "preact-router": "^2.3.2"
