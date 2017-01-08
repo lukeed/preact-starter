@@ -1,3 +1,10 @@
+<!--
+deploy notes:
+gco deploy && git rebase origin/master
+npm run build
+(copy package to dist, with start: `serve` only)
+now dist
+-->
 # preact-starter
 
 > Webpack2 boilerplate for building SPA / PWA / offline front-end apps with [Inferno](https://github.com/infernojs/inferno) :fire:
