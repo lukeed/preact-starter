@@ -1,14 +1,14 @@
-import Inferno from 'inferno';
-import { Link } from 'inferno-router';
+import { h } from 'preact';
+import { Link } from 'preact-router';
 
 export default function () {
 	return (
 		<header className="header">
-			<h1>Inferno Starter</h1>
+			<h1>Preact Starter</h1>
 			<nav>
-				<Link to="/">Home</Link>
-				<Link to="/blog">Blog</Link>
-				<Link to="/credit">Credit</Link>
+				<Link href="/">Home</Link>
+				<Link href="/blog">Blog</Link>
+				<Link href="/credit">Credit</Link>
 			</nav>
 		</header>
 	)

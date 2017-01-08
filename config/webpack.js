@@ -13,7 +13,10 @@ if (isProd) {
 module.exports = {
 	entry: {
 		app: './src/index.js',
-		vendor: ['inferno']
+		vendor: [
+			// pull these to a `vendor.js` file
+			'preact'
+		]
 	},
 	output: {
 		path: out,

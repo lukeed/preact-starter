@@ -1,4 +1,4 @@
-import Inferno from 'inferno';
+import { h } from 'preact';
 import Card from '../../tags/card';
 
 export default function () {

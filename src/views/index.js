@@ -1,5 +1,5 @@
-import Inferno from 'inferno'
-import { Route } from 'inferno-router'
+import { h } from 'preact'
+import { Router } from 'preact-router';
 
 import Home from './pages/home';
 import Layout from './tags/layout';
@@ -9,11 +9,13 @@ import Credit from './pages/credit';
 import Blog from './pages/blog';
 
 export default (
-	<Route component={ Layout }>
-		<Route path="/" component={ Home } />
-		<Route path="/credit" component={ Credit } />
-		<Route path="/blog" component={ Blog } />
-		<Route path="/blog/:title" component={ Article } />
-		<Route path="*" component={ Error404 } />
-	</Route>
+	<Layout>
+		<Router>
+			<Home path="/" />
+			<Blog path="/blog" />
+			<Article path="/blog/:title" />
+			<Credit path="/credit" />
+			<Error404 default />
+		</Router>
+	</Layout>
 );

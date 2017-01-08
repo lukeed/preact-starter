@@ -1,8 +1,8 @@
-import Inferno from 'inferno';
-import { Link } from 'inferno-router';
+import { h } from 'preact';
+import { Link } from 'preact-router';
 
 export default function (props) {
 	return (
-		<Link to={ props.to } className="card">{ props.children }</Link>
+		<Link href={ props.href } className="card">{ props.children }</Link>
 	)
 };

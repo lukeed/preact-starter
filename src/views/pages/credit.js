@@ -1,22 +1,18 @@
-import Inferno from 'inferno';
+import { h } from 'preact';
 import Card from '../tags/card';
 
 const links = [{
-	name: 'lukeed/inferno-starter',
-	desc: 'A Webpack2 starter for building SPA / PWA / offline front-end apps with Inferno',
-	href: 'https://github.com/lukeed/inferno-starter'
+	name: 'lukeed/preact-starter',
+	desc: 'A Webpack2 starter for building SPA / PWA / offline front-end apps with Preact',
+	href: 'https://github.com/lukeed/preact-starter'
 }, {
-	name: 'infernojs/inferno',
-	desc: 'An extremely fast, isomorphic JavaScript library for building modern user interfaces',
-	href: 'https://www.npmjs.com/package/inferno'
+	name: 'developit/preact',
+	desc: 'Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM.',
+	href: 'https://www.npmjs.com/package/preact'
 }, {
-	name: 'infernojs/inferno-router',
-	desc: 'Provides routing functionality for Inferno',
-	href: 'https://www.npmjs.com/package/inferno-router'
-}, {
-	name: 'mjackson/history',
-	desc: 'Manage session history with JavaScript',
-	href: 'https://www.npmjs.com/package/history'
+	name: 'developit/preact-router',
+	desc: 'URL router for Preact.',
+	href: 'https://www.npmjs.com/package/preact-router'
 }, {
 	name: 'webpack/webpack',
 	desc: 'A bundler for javascript and friends. Allows for code splitting & asynchronous lazy-loading.',

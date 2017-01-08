@@ -1,16 +1,8 @@
-import Inferno from 'inferno';
-import { Router } from 'inferno-router';
-import { createBrowserHistory } from 'history';
-import views from './views';
+import { render } from 'preact';
+import App from './views';
 import './index.sass';
 
-const history = createBrowserHistory();
-
-const App = () => (
-	<Router history={ history }>{ views }</Router>
-);
-
-Inferno.render(App(), document.getElementById('root'));
+render(App, document.getElementById('root'));
 
 if (process.env.NODE_ENV === 'production') {
 	// cache all assets if browser supports serviceworker
