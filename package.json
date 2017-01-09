@@ -10,7 +10,7 @@
     "url": "https://lukeed.com"
   },
   "scripts": {
-    "build": "NODE_ENV=production webpack --config config/webpack",
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack",
     "start": "serve dist -s",
     "watch": "webpack-dashboard -- webpack-dev-server --config config/webpack"
   },
@@ -29,6 +29,7 @@
     "babel-preset-stage-2": "^6.18.0",
     "clean-webpack-plugin": "^0.1.14",
     "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.1.4",
     "css-loader": "^0.26.1",
     "extract-text-webpack-plugin": "beta",
     "html-webpack-plugin": "^2.25.0",
