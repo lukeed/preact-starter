@@ -17,9 +17,6 @@ if (process.env.NODE_ENV === 'production') {
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 	ga('create', 'UA-XXXXXXXX-X', 'auto');
 	ga('send', 'pageview');
-
-	// track pages on route change
-	window.ga && history.listen(obj => ga('send', 'pageview', obj.pathname));
 } else {
 	require('preact/devtools');
 }

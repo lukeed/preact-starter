@@ -8,9 +8,14 @@ import Error404 from './pages/errors/404';
 import Credit from './pages/credit';
 import Blog from './pages/blog';
 
+// track pages on route change
+const onChange = props => {
+	window.ga && history.listen(obj => ga('send', 'pageview', obj.url));
+};
+
 export default (
 	<Layout>
-		<Router>
+		<Router onChange={ onChange }>
 			<Home path="/" />
 			<Blog path="/blog" />
 			<Article path="/blog/:title" />
