@@ -1,6 +1,6 @@
 # preact-starter
 
-> Webpack2 boilerplate for building SPA / PWA / offline front-end apps with [Preact](https://github.com/developit/preact) :fire:
+> Webpack2 boilerplate for building SPA / PWA / offline front-end apps with :atom_symbol: [Preact](https://github.com/developit/preact) 
 
 Using `preact-starter` will kickstart your next application! :100: It is designed to fit the "90% use-case" for those who want to build offline-first web apps (see [features](#features) below).
 
