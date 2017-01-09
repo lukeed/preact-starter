@@ -40,7 +40,7 @@ if (isProd) {
 		new webpack.optimize.UglifyJsPlugin(uglify),
 		new ExtractText('styles.[hash].css'),
 		new SWPrecache({
-			cacheId: 'inferno-starter',
+			cacheId: 'preact-starter',
 			filename: 'service-worker.js',
 			dontCacheBustUrlsMatching: /./,
 			navigateFallback: 'index.html',
