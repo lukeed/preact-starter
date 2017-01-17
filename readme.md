@@ -1,6 +1,6 @@
 # preact-starter
 
-> Webpack2 boilerplate for building SPA / PWA / offline front-end apps with :atom_symbol: [Preact](https://github.com/developit/preact) 
+> Webpack2 boilerplate for building SPA / PWA / offline front-end apps with :atom_symbol: [Preact](https://github.com/developit/preact)
 
 Using `preact-starter` will kickstart your next application! :100: It is designed to fit the "90% use-case" for those who want to build offline-first web apps (see [features](#features) below).
 
@@ -82,7 +82,7 @@ The dashboard is meant to be interactive (scrollable). If you are having issues,
 You can inspect and modify the state of your Preact UI components at runtime using the [React Developer Tools](https://github.com/facebook/react-devtools) browser extension.
 
 1. Install the [React Developer Tools](https://github.com/facebook/react-devtools) extension
-2. [Import the `preact/devtools`](src/index.js#L24) module in your app
+2. [Import the `preact/devtools`](src/index.js#L21) module in your app
 3. Reload and go to the 'React' tab in the browser's development tools
 
 ## License
