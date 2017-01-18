@@ -7,7 +7,7 @@ module.exports = {
 		warnings: 0,
 		comparisons: 1,
 		conditionals: 1,
-		negate_iife: 0, // <- for `v8LazyParse()`
+		negate_iife: 0, // <- for `LazyParseWebpackPlugin()`
 		dead_code: 1,
 		if_return: 1,
 		join_vars: 1,

@@ -1,6 +1,5 @@
 const { join } = require('path');
 const webpack = require('webpack');
-const V8LazyParse = require('v8-lazy-parse-webpack-plugin');
 const ExtractText = require('extract-text-webpack-plugin');
 const SWPrecache = require('sw-precache-webpack-plugin');
 const Dashboard = require('webpack-dashboard/plugin');
@@ -16,7 +15,6 @@ const isProd = (env === 'production');
 
 // base plugins array
 const plugins = [
-	new V8LazyParse(),
 	new Clean(['dist'], {root: root}),
 	new Copy([{context: 'src/static/', from: '**/*.*'}]),
 	new webpack.optimize.CommonsChunkPlugin({name: 'vendor'}),
