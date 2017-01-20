@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config config/webpack",
-    "start": "serve dist -s -p 3000",
+    "start": "serve dist -s",
     "watch": "webpack-dashboard -- webpack-dev-server --config config/webpack"
   },
   "dependencies": {
