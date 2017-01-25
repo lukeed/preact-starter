@@ -1,8 +1,13 @@
 import { render } from 'preact';
-import App from './views';
 import './index.sass';
 
-render(App, document.getElementById('root'));
+let elem, App;
+function init() {
+	App = require('./views').default;
+	elem = render(App, document.getElementById('root'), elem);
+}
+
+init();
 
 if (process.env.NODE_ENV === 'production') {
 	// cache all assets if browser supports serviceworker
@@ -18,5 +23,10 @@ if (process.env.NODE_ENV === 'production') {
 	ga('create', 'UA-XXXXXXXX-X', 'auto');
 	ga('send', 'pageview');
 } else {
+	// use preact's devtools
 	require('preact/devtools');
+	// listen for HMR
+	if (module.hot) {
+		module.hot.accept('./views', init);
+	}
 }
