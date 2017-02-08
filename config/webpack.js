@@ -23,6 +23,13 @@ module.exports = {
 		filename: '[name].[hash].js',
 		publicPath: '/'
 	},
+	resolve: {
+		alias: {
+			// you may need `preact-compat` instead!
+			'react': 'preact/aliases',
+ 			'react-dom': 'preact/aliases'
+		}
+	},
 	module: {
 		rules: [{
 			test: /\.jsx?$/,
