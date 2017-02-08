@@ -19,7 +19,6 @@ const plugins = [
 	new Copy([{context: 'src/static/', from: '**/*.*'}]),
 	new webpack.optimize.CommonsChunkPlugin({name: 'vendor'}),
 	new webpack.DefinePlugin({'process.env.NODE_ENV': JSON.stringify(env)}),
-	new webpack.NamedModulesPlugin(),
 	new HTML({template: 'src/index.html'}),
 	new webpack.LoaderOptionsPlugin({
 		options: {
@@ -48,6 +47,7 @@ if (isProd) {
 	// dev only
 	plugins.push(
 		new webpack.HotModuleReplacementPlugin(),
+		new webpack.NamedModulesPlugin(),
 		new Dashboard()
 	);
 }
