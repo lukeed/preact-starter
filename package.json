@@ -17,7 +17,7 @@
   "dependencies": {
     "md-colors": "^1.0.0",
     "preact": "^7.2.0",
-    "preact-router": "^2.3.2"
+    "preact-router": "^2.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.6.1",

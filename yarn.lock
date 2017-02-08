@@ -3888,9 +3888,9 @@ postcss@^5.0.6, postcss@^5.2.8:
     source-map "^0.5.6"
     supports-color "^3.1.2"
 
-preact-router@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/preact-router/-/preact-router-2.3.2.tgz#4a6db9ceb0bd29e3eb5ad27b4646e7c7e1d3e68f"
+preact-router@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/preact-router/-/preact-router-2.4.1.tgz#2dbf1756724eb2b0c401678c6cee5af2e7a2ccb8"
 
 preact@^7.2.0:
   version "7.2.0"
