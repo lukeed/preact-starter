@@ -17,7 +17,7 @@ module.exports = env => {
 			]
 		},
 		output: {
-			path: out,
+			path: dist,
 			filename: '[name].[hash].js',
 			publicPath: '/'
 		},
