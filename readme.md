@@ -9,7 +9,9 @@ Using `preact-starter` will kickstart your next application! :100: It is designe
 **Please note:** Boilerplate _does not_ incorporate the latest ["css-in-js" or "css modules" technique](https://github.com/MicheleBertoli/css-in-js). Instead, the more traditional approach is taken, wherein `styles` and `scripts` are kept separate. That said, you may **certainly and easily** take that route if desired. :white_check_mark:
 
 ---
+
 <p align="center">:warning: Boilerplate & commands will evolve as my own development process does. :warning:</p>
+
 ---
 
 ## Install
