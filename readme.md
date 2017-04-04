@@ -18,7 +18,9 @@ Using `preact-starter` will kickstart your next application! :100: It is designe
 
 ```sh
 git clone https://github.com/lukeed/preact-starter
+cd preact-starter
 npm install
+npm run build
 npm start
 ```
 
