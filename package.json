@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "md-colors": "^1.0.0",
-    "preact": "^7.2.0",
-    "preact-router": "^2.4.1"
+    "preact": "^8.1.0",
+    "preact-router": "^2.5.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

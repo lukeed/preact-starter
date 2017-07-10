@@ -23,9 +23,9 @@ module.exports = env => {
 		},
 		resolve: {
 			alias: {
-				// you may need `preact-compat` instead!
-				'react': 'preact/aliases',
-	 			'react-dom': 'preact/aliases'
+				// Run `npm install preact-compat --save`
+				// 'react': 'preact-compat',
+	 			// 'react-dom': 'preact-compat'
 			}
 		},
 		module: {
