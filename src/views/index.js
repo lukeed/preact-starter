@@ -9,7 +9,7 @@ import Credit from './pages/credit';
 import Blog from './pages/blog';
 
 // track pages on route change
-const onChange = obj => window.ga && ga('send', 'pageview', obj.url);
+const onChange = obj => window.ga && ga.send('pageview', { dp:obj.url });
 
 export default (
 	<Layout>
