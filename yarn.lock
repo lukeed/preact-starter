@@ -4387,13 +4387,13 @@ postcss@^6.0.1, postcss@^6.0.2, postcss@^6.0.6:
     source-map "^0.5.6"
     supports-color "^4.1.0"
 
-preact-router@^2.5.4:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/preact-router/-/preact-router-2.5.4.tgz#4a1ae3d35e656507961976114884f700b441feda"
+preact-router@^2.5.5:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/preact-router/-/preact-router-2.5.5.tgz#d186a7405efc70f7c9b7759174769e6b56bf9324"
 
-preact@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-8.1.0.tgz#f035b808eebb74e46d56246b02ca0f190b6d6574"
+preact@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-8.2.1.tgz#674243df0c847884d019834044aa2fcd311e72ed"
 
 prepend-http@^1.0.0, prepend-http@^1.0.1:
   version "1.0.4"

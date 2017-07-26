@@ -17,8 +17,8 @@
   "dependencies": {
     "ganalytics": "^2.0.1",
     "md-colors": "^1.0.0",
-    "preact": "^8.1.0",
-    "preact-router": "^2.5.4"
+    "preact": "^8.2.1",
+    "preact-router": "^2.5.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
