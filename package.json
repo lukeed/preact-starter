@@ -39,8 +39,8 @@
     "serve": "^6.0.2",
     "style-loader": "^0.18.2",
     "sw-precache-webpack-plugin": "^0.11.4",
-    "webpack": "^3.3.0",
+    "webpack": "^3.4.1",
     "webpack-dashboard": "^0.4.0",
-    "webpack-dev-server": "^2.6.0"
+    "webpack-dev-server": "^2.6.1"
   }
 }
