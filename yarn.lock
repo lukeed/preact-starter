@@ -2517,6 +2517,10 @@ function-bind@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
 
+ganalytics@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ganalytics/-/ganalytics-2.0.1.tgz#bbddf6449a5789b2efee7a88e9942216bc5eedab"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
