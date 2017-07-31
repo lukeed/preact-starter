@@ -18,10 +18,6 @@ const links = [{
 	desc: 'A bundler for javascript and friends. Allows for code splitting & asynchronous lazy-loading.',
 	href: 'https://github.com/webpack/webpack'
 }, {
-	name: 'FormidableLabs/webpack-dashboard',
-	desc: 'A CLI dashboard for webpack-dev-server',
-	href: 'https://github.com/FormidableLabs/webpack-dashboard'
-}, {
 	name: 'zeit/now',
 	desc: 'Free (OSS) realtime global deployments',
 	href: 'https://zeit.co/now'

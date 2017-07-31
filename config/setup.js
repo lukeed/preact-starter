@@ -2,7 +2,6 @@ const { join } = require('path');
 const webpack = require('webpack');
 const ExtractText = require('extract-text-webpack-plugin');
 const SWPrecache = require('sw-precache-webpack-plugin');
-const Dashboard = require('webpack-dashboard/plugin');
 const Clean = require('clean-webpack-plugin');
 const Copy = require('copy-webpack-plugin');
 const HTML = require('html-webpack-plugin');
@@ -38,8 +37,7 @@ module.exports = isProd => {
 		// dev only
 		plugins.push(
 			new webpack.HotModuleReplacementPlugin(),
-			new webpack.NamedModulesPlugin(),
-			new Dashboard()
+			new webpack.NamedModulesPlugin()
 		);
 	}
 

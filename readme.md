@@ -32,7 +32,6 @@ npm start
 * SASS & Autoprefixer
 * Asset Versioning (aka "cache-busting")
 * ES2015 (ES6) and ES2016 (ES7) support
-* Webpack Bundle Analysis (see [dashboard](#dashboard))
 * Hot Module Replacement (HMR) for all files
 * Preact's [Developer Tools](#preact-developer-tools)
 * [Lighthouse](https://github.com/GoogleChrome/lighthouse) certified
@@ -70,16 +69,6 @@ $ npm run watch
 ```
 
 Like [`start`](#start), but will auto-compile & auto-reload the server after any file changes within the `src` directory.
-
-### Dashboard
-
-With [`webpack-dashboard`](https://github.com/FormidableLabs/webpack-dashboard), it's much easier to see what's happening inside your bundles. In addition to de-cluttering your `webpack-dev-server` log, you can quickly make sense of your bundles' `import`s and sizes.
-
-![dashboard](src/static/img/dev-dash.jpg)
-
-The dashboard is meant to be interactive (scrollable). If you are having issues, please see the author's note:
-
-> ***OS X Terminal.app users:*** Make sure that **View → Allow Mouse Reporting** is enabled, otherwise scrolling through logs and modules won't work. If your version of Terminal.app doesn't have this feature, you may want to check out an alternative such as [iTerm2](https://www.iterm2.com/index.html).
 
 ### Preact Developer Tools
 
