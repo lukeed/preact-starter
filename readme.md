@@ -75,7 +75,7 @@ Like [`start`](#start), but will auto-compile & auto-reload the server after any
 You can inspect and modify the state of your Preact UI components at runtime using the [React Developer Tools](https://github.com/facebook/react-devtools) browser extension.
 
 1. Install the [React Developer Tools](https://github.com/facebook/react-devtools) extension
-2. [Import the `preact/devtools`](src/index.js#L21) module in your app
+2. [Import the `preact/devtools`](src/index.js#L23) module in your app
 3. Reload and go to the 'React' tab in the browser's development tools
 
 ## License
