@@ -24,6 +24,7 @@ module.exports = isProd => {
 	if (isProd) {
 		plugins.push(
 			new webpack.LoaderOptionsPlugin({ minimize:true }),
+			new webpack.optimize.ModuleConcatenationPlugin(),
 			new webpack.optimize.UglifyJsPlugin(uglify),
 			new ExtractText('styles.[hash].css'),
 			new SWPrecache({
