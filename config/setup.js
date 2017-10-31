@@ -29,7 +29,7 @@ module.exports = isProd => {
 			new ExtractText('styles.[hash].css'),
 			new SWPrecache({
 				minify: true,
-				filename: 'service-worker.js',
+				filename: 'sw.js',
 				dontCacheBustUrlsMatching: /./,
 				navigateFallback: 'index.html',
 				staticFileGlobsIgnorePatterns: [/\.map$/]
