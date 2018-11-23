@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "webpack --env.production --config config/webpack",
-    "start": "serve dist -s",
+    "start": "sirv dist -s",
     "watch": "webpack-dev-server --config config/webpack"
   },
   "dependencies": {
@@ -36,7 +36,7 @@
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.3",
-    "serve": "^6.0.6",
+    "sirv-cli": "^0.2.3",
     "style-loader": "^0.18.2",
     "sw-precache-webpack-plugin": "^0.11.4",
     "webpack": "^3.7.0",
